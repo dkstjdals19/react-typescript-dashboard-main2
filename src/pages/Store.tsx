@@ -117,9 +117,11 @@ export default function Store() {
                         value={signguCd}
                         onChange={(e) => setSignguCd(e.target.value)}
                     >
-                        <option className="text-black" value="28237">인천 남동구 (28237)</option>
+                        <option className="text-black" value="28237">인천 부평구 (28237)</option>
                         <option className="text-black" value="11620">서울 관악구 (11620)</option>
                         <option className="text-black" value="41135">경기 성남시 분당구 (41135)</option>
+                        <option className="text-black" value="11170">서울 용산구 (11170)</option>
+                        <option className="text-black" value="28245">인천 계양구 (28245)</option>
                     </select>
                 </label>
                 
